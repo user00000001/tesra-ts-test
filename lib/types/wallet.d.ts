@@ -1,4 +1,4 @@
-import { Account, Wallet } from 'ontology-ts-crypto';
+import { Account, Wallet } from 'tesra-ts-crypto';
 import { Transaction } from './core/transaction';
 import { Signer } from './types';
 export declare function loadWallet(walletPath: string): Wallet;

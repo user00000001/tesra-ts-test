@@ -1,4 +1,4 @@
-import { Address } from 'ontology-ts-crypto';
+import { Address } from 'tesra-ts-crypto';
 import { Transaction } from './core/transaction';
 export interface Transfer {
     sender: Address;
@@ -16,6 +16,6 @@ export declare class Transactor {
     rpcAddress: string;
     constructor(rpcAddress: string);
     transfer({ sender, to, amount, asset, gasPrice, gasLimit, processCallback, wait }: TransactorTransferOptions): Promise<any>;
-    withdrawOng({ sender, to, amount, gasPrice, gasLimit, processCallback, wait }: TransactorTransferOptions): Promise<any>;
+    withdrawTsg({ sender, to, amount, gasPrice, gasLimit, processCallback, wait }: TransactorTransferOptions): Promise<any>;
     private getContract;
 }

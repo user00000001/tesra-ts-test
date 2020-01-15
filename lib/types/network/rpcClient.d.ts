@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { Address } from 'ontology-ts-crypto';
+import { Address } from 'tesra-ts-crypto';
 /**
  * Wrapper class for RPC apis.
  */
@@ -27,16 +27,16 @@ export declare class RpcClient {
     sendRequest(req: any): Promise<any>;
     /**
      * Get the balance of some address.
-     * The result contains ONT and ONG.
+     * The result contains TST and TSG.
      * @param address Address
      */
     getBalance(address: Address): Promise<any>;
     /**
-     * Get the unbound ONG of some address.
-     * The result contains ONG.
+     * Get the unbound TSG of some address.
+     * The result contains TSG.
      * @param address Address
      */
-    getUnboundOng(address: Address): Promise<any>;
+    getUnboundTsg(address: Address): Promise<any>;
     /**
      * Send ran transaction to blockchain.
      * @param data Hex encoded data.
@@ -118,7 +118,7 @@ export declare class RpcClient {
     getMerkleProof(hash: string): Promise<any>;
     /**
      * Get allowanece
-     * @param asset Asset's type. Only ONT and ONG supported.
+     * @param asset Asset's type. Only TST and TSG supported.
      * @param from Address of allowance's sender.
      * @param to Address of allowance's receiver.
      */

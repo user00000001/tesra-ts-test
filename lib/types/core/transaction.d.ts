@@ -1,6 +1,6 @@
 /// <reference types="node" />
 import * as Long from 'long';
-import { Address, Reader, Writer } from 'ontology-ts-crypto';
+import { Address, Reader, Writer } from 'tesra-ts-crypto';
 import { Uint256 } from '../common/uint256';
 export declare const TX_MAX_SIG_SIZE = 16;
 export declare type TransactionType = number;

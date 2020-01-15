@@ -6,7 +6,7 @@ export declare function deploy({ client, account, password, ...rest }: DeployOpt
 export declare function isDeployed({ client, scriptHash }: IsDeployedOptions): Promise<boolean>;
 export declare function invoke({ client, account, password, signers, ...rest }: InvokeOptions): Promise<any>;
 export declare function transfer({ client, account, password, ...rest }: TransferOptions): Promise<any>;
-export declare function withdrawOng({ client, account, password, ...rest }: TransferOptions): Promise<any>;
+export declare function withdrawTsg({ client, account, password, ...rest }: TransferOptions): Promise<any>;
 export { CompilerType, CompilerOutput } from './compiler';
 export { loadContract, loadCompiledContract } from './common/utils';
 export { loadWallet, createWallet, createAccount } from './wallet';

@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { Reader, Writer } from 'ontology-ts-crypto';
+import { Reader, Writer } from 'tesra-ts-crypto';
 export declare class InvokeCode {
     private code;
     constructor(code?: Buffer);

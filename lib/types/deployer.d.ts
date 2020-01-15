@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { Address } from 'ontology-ts-crypto';
+import { Address } from 'tesra-ts-crypto';
 import { Transaction } from './core/transaction';
 export interface Deployment {
     code: Buffer;

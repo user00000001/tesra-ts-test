@@ -1,7 +1,7 @@
 /// <reference types="node" />
-import { ProgramBuilder } from 'ontology-ts-crypto';
+import { ProgramBuilder } from 'tesra-ts-crypto';
 import { Struct } from './struct';
-export declare function sleep(ms: number): Promise<{}>;
+export declare function sleep(ms: number): Promise<unknown>;
 export declare function loadContract(path: string): Buffer;
 export declare function loadCompiledContract(path: string): Buffer;
 export declare function loadOptionsFile(path: string): string;

@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { Account } from 'ontology-ts-crypto';
+import { Account } from 'tesra-ts-crypto';
 import { CompilerType } from './compiler/types';
 import { DeployerOptions } from './deployer';
 import { InvokerOptions } from './invoker';
